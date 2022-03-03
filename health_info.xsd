@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="건강정보시스템">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="질병" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="질병">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="분류"/>
+        <xs:element ref="질환명" maxOccurs="unbounded"/>
+        <xs:element name="증상" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element name="정의" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element name="img" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="분류">
+    <xs:complexType>
+      <xs:attribute name="부위별" type="xs:string" use="required"/>
+      <xs:attribute name="진료과별" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="질환명">
+    <xs:complexType mixed="true">
+      <xs:attribute name="language" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
