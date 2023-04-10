@@ -44,7 +44,7 @@
           </div>
         </div>
         <p><h1>Health Management System</h1><h2>health management system은 다양한 질병 정보의 검색 및 파악의 용이성을 증가시켜 현대인의 건강을 개선하기 위한 플랫폼입니다. 요즈음 바쁜 현대인은 자신의 건강 상태 자각하지 못하는 경우가 많고 어떠한 증상이 나타날 때 이것이 어떤 질병을 발병하고 초래하는 지에 대해 정보를 얻는 것에 어려움이 있습니다. 우리의 건강 관리 플랫폼을 통해 다양한 질병 정보를 부위 또는 진료과 별 분류로 탐색 가능하며 더 나아가 자신을 건강 상태를 쉽게 확인할 수 있습니다.
-          <br/><br/>김수정(crystar2404@cu.ac.kr) 임찬아(ami159@cu.ac.kr) 조혜원(johyewon29@cu.ac.kr)</h2></p>
+          <br/><br/>김수정(crystar2402@cu.ac.kr) 임찬아(ami159@cu.ac.kr) 조혜원(johyewon29@cu.ac.kr)</h2></p>
       </div>
 
       <!-- Part Section -->
